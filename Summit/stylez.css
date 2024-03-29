@@ -1,0 +1,51 @@
+a {
+  color: pink;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:hover {
+text-decoration: none;
+}
+.nav-link {
+  text-decoration: underline;
+}
+.nav-link:hover {
+  color: pink;
+}
+.btn {
+  background-color: turquoise;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 14px
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn:hover {
+color: pink;
+background-color: red;
+border: solid;
+font-size: 14px;
+}
+.btn:active {
+font-size: 20px;
+transition: font-size .1s ease-in-out;
+}
+.activity {
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  color: pink;
+  background-color: blue;
+}
+.activity:hover {
+color: pink;
+background-color: turquoise;
+border: solid;
+font-size: 20px;
+}
+.activity:active {
+font-size: 25px;
+}
